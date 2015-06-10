@@ -12,7 +12,7 @@ sudo apt-get -y install make cmake gdb bison unzip flex
 sudo apt-get -y install scons
 
 # Essential libraries
-sudo apt-get -y install libcurl3 libcurl3-gnutls libcurl4-openssl-dev
+sudo apt-get -y install curl libcurl3 libcurl3-gnutls libcurl4-openssl-dev wget
 sudo apt-get -y install libffi-dev libffi6
 sudo apt-get -y install libgdbm-dev
 sudo apt-get -y install libmagickwand-dev imagemagick
