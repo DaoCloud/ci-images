@@ -25,9 +25,10 @@ sudo apt-get -y install libxml2-dev libxslt1-dev libxslt-dev
 sudo apt-get -y install libyaml-0-2 libyaml-dev libtool
 sudo apt-get -y install libzmq-dev
 sudo apt-get -y install zlib1g zlib1g-dev
+sudo apt-get -y install python-software-properties
 
 # Service libraries
-sudo apt-get -y install libmysqlclient-dev
+sudo apt-get -y install libmysqlclient-dev libmysqld-dev
 sudo apt-get -y install libmemcache-dev
 sudo apt-get -y install libpq-dev
 sudo apt-get -y install libsqlite3-dev sqlite3 sqlite3-doc
