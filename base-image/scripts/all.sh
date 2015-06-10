@@ -25,7 +25,7 @@ sudo apt-get -y install libxml2-dev libxslt1-dev libxslt-dev
 sudo apt-get -y install libyaml-0-2 libyaml-dev libtool
 sudo apt-get -y install libzmq-dev
 sudo apt-get -y install zlib1g zlib1g-dev
-sudo apt-get -y install python-software-properties
+sudo apt-get -y install software-properties-common
 
 # Service libraries
 sudo apt-get -y install libmysqlclient-dev libmysqld-dev
