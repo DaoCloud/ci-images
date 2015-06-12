@@ -14,6 +14,11 @@ docker build -t daocloud/ci-mongodb:2.6 service/mongodb/2.6
 docker build -t daocloud/ci-mongodb:3.0 service/mongodb/3.0
 
 ### platforms
+## gcc
+for version in 4.4 4.6 4.7 4.8 4.9 5
+do
+  docker build -t daocloud/ci-gcc:${version} platform/gcc/${version}
+done
 
 ## python
 for version in 2.3 2.4 2.5 2.6 2.7 3.1 3.2 3.3 3.4
@@ -34,7 +39,7 @@ do
 done
 
 ## java
-for version in openjdk6  openjdk7  oraclejdk6  oraclejdk7  oraclejdk8
+for version in openjdk6 openjdk7 oraclejdk6 oraclejdk7 oraclejdk8
 do
   docker build -t daocloud/ci-java:${version} platform/java/${version}
 done
