@@ -22,7 +22,7 @@ do
 done
 
 ## ruby
-for version in 1.8.6 1.8.7 1.9.1 1.9.2 1.9.3 2.0.0 2.1.0 2.1.1 2.1.2 2.1.3 2.1.4 2.1.5 2.1.6 2.2.0 2.2.1 2.2.2
+for version in 1.8.7 1.9.3 2.0.0 2.1.2 2.1.4 2.1.6 2.2.0 2.2.2
 do
   docker build -t daocloud/ci-ruby:${version} platform/ruby/${version}
 done
