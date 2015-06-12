@@ -36,5 +36,5 @@ done
 ## java
 for version in openjdk6  openjdk7  oraclejdk6  oraclejdk7  oraclejdk8
 do
-  docker build -t daocloud/ci-golang:${version} platform/golang/${version}
+  docker build -t daocloud/ci-java:${version} platform/java/${version}
 done
