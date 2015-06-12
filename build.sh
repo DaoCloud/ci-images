@@ -32,3 +32,9 @@ for version in 1.0 1.1 1.2 1.3 1.4
 do
   docker build -t daocloud/ci-golang:${version} platform/golang/${version}
 done
+
+## java
+for version in openjdk6  openjdk7  oraclejdk6  oraclejdk7  oraclejdk8
+do
+  docker build -t daocloud/ci-golang:${version} platform/golang/${version}
+done
