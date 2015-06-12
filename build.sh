@@ -39,7 +39,7 @@ do
 done
 
 ## java
-for version in openjdk6 openjdk7 oraclejdk6 oraclejdk7 oraclejdk8
+for version in openjdk6 openjdk7 oraclejdk6 oraclejdk7 oraclejdk8 oraclejdk9
 do
   docker build -t daocloud/ci-java:${version} platform/java/${version}
 done
