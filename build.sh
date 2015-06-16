@@ -43,3 +43,9 @@ for version in openjdk6 openjdk7 oraclejdk6 oraclejdk7 oraclejdk8 oraclejdk9
 do
   docker build -t daocloud/ci-java:${version} platform/java/${version}
 done
+
+## node
+for version in 0.6 0.8 0.10 0.12
+do
+  docker build -t daocloud/ci-node:${version} platform/node/${version}
+done
