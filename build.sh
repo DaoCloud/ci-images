@@ -12,6 +12,7 @@ docker build -t daocloud/ci-mongodb:2.2 service/mongodb/2.2
 docker build -t daocloud/ci-mongodb:2.4 service/mongodb/2.4
 docker build -t daocloud/ci-mongodb:2.6 service/mongodb/2.6
 docker build -t daocloud/ci-mongodb:3.0 service/mongodb/3.0
+docker build -t daocloud/ci-memcached:1.4 service/memcached/1.4
 
 ### platforms
 ## gcc
