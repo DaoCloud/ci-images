@@ -49,3 +49,9 @@ for version in 0.6 0.8 0.10 0.12
 do
   docker build -t daocloud/ci-node:${version} platform/node/${version}
 done
+
+## php
+for version in 5.5
+do
+  docker build -t daocloud/ci-node:${version} platform/node/${version}
+done
