@@ -21,9 +21,6 @@
     daocloud/ci-gcc:4.8
     daocloud/ci-gcc:4.9
     daocloud/ci-gcc:5
-    daocloud/ci-python:2.3
-    daocloud/ci-python:2.4
-    daocloud/ci-python:2.5
     daocloud/ci-python:2.6
     daocloud/ci-python:2.7
     daocloud/ci-python:3.1
