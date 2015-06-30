@@ -13,6 +13,6 @@ RUN export PATH=$PATH:/root/.rbenv/bin                                          
     gem install bundler                                                               && \
     rbenv rehash
 
-ENV PATH /root/.rbenv/shims:${PATH}:/root/.rbenv/bin
+ENV PATH /root/.rbenv/versions/2.0.0-p645/bin:${PATH}
 ENV RBENV_VERSION 2.0.0-p645
 ENV RBENV_SHELL bash
