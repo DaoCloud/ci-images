@@ -12,9 +12,7 @@ docker build -t daocloud/ci-mongodb:2.4 service/mongodb/2.4
 docker build -t daocloud/ci-mongodb:2.6 service/mongodb/2.6
 docker build -t daocloud/ci-mongodb:3.0 service/mongodb/3.0
 docker build -t daocloud/ci-memcached:1.4 service/memcached/1.4
-docker build -t daocloud/ci-influxdb:0.7 service/influxdb/0.7
-docker build -t daocloud/ci-influxdb:0.8 service/influxdb/0.8
-docker build -t daocloud/ci-influxdb:0.9 service/influxdb/0.9
+docker build -t daocloud/ci-influxdb:0.9.0 service/influxdb/0.9.0
 
 ### platforms
 ## gcc
