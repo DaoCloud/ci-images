@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-docker build -t daocloud/ci-base ci-base
-
 ### services
 docker build -t daocloud/ci-mysql:5.5 service/mysql/5.5
 docker build -t daocloud/ci-redis:2.6 service/redis/2.6
