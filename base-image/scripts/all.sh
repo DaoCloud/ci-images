@@ -32,4 +32,4 @@ sudo apt-get -y install libmysqlclient-dev libmysqld-dev
 sudo apt-get -y install libmemcache-dev
 sudo apt-get -y install libpq-dev
 sudo apt-get -y install libsqlite3-dev sqlite3 sqlite3-doc
-
+sudo apt-get -y install openssh-server
