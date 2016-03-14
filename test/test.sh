@@ -24,7 +24,7 @@ do
 done
 
 ## go
-for version in 1.0 1.1 1.2 1.3 1.4
+for version in 1.0 1.1 1.2 1.3 1.4 1.5 1.6
 do
   docker run daocloud/ci-golang:${version} which go
   docker run daocloud/ci-golang:${version} go version 2>&1 | grep ${version}
